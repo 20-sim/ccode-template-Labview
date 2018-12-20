@@ -1,0 +1,33 @@
+%SUBMODEL_NAME%
+=============================================================
+
+INPUTS & OUTPUTS INDICES
+------------------------
+ 
+*** INPUTS ***
+
+%INPUT_TO_VARIABLE_EQUATIONS%
+ 
+*** OUTPUTS ***
+
+%VARIABLE_TO_OUTPUT_EQUATIONS%
+ 
+
+
+
+
+NAMES
+-----
+
+[CONSTANTS]
+%CONSTANT_NAMES%
+[PARAMETERS]
+%PARAMETER_NAMES%
+[VARIABLES]
+%VARIABLE_NAMES%
+[STATES]
+%STATE_NAMES%
+[RATES]
+%RATE_NAMES%
+[MATRICES]
+%MATRIX_NAMES%

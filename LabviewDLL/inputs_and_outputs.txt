@@ -1,0 +1,14 @@
+*** INPUTS ***
+  The expected input array size is: %NUMBER_INPUTS%
+%IF%%NUMBER_INPUTS%
+  The input order is: (The topmost name is the first array element in Labview)
+
+%INPUT_TO_VARIABLE_EQUATIONS%
+%ENDIF%
+*** OUTPUTS ***
+  The expected output array size is: %NUMBER_OUTPUTS%
+%IF%%NUMBER_OUTPUTS%
+  The output order is: (The topmost name is the first array element in Labview)
+
+%VARIABLE_TO_OUTPUT_EQUATIONS%
+%ENDIF%
